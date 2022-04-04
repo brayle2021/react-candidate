@@ -2,7 +2,6 @@
 import React from 'react';
 import { Container } from './Components/styles/Container.styled'
 import Header from './Components/Header'
-import Candidates from './Components/Candidates'
 import { ThemeProvider } from 'styled-components'
 
 
@@ -21,8 +20,6 @@ function App() {
     <>
       <Header />
       <Container>
-        <Candidates />
-        <h1>Candidates</h1>
       </Container>
     </>
     </ThemeProvider>
